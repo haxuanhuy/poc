@@ -10,7 +10,7 @@ let isFilled = false;
         setTimeout(function() {
           alert('Victim username: '+document.getElementsByName('uname')[0].value+'\n\nVictim password: '+document.getElementById('account_pwd').value);
          
-        }, 7500); 
+        }, 3500); 
       }
     }
   }
