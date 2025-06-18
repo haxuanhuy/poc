@@ -16,7 +16,7 @@ let isFilled = false;
         }, 4500); 
       }
     }
-  }
+  
 
 if (input3.value && input4.value) {
       if (!isFilled) {
@@ -27,8 +27,8 @@ if (input3.value && input4.value) {
         }, 4500); 
       }
     }
-  }
   
+ }
   window.onload = checkInputs;
 
 
