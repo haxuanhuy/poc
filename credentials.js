@@ -19,6 +19,6 @@ let isFilled = false;
   window.onload = checkInputs;
 
 
-  document.getElementsByName('uname')[0].addEventListener('input', checkInputs);
-  document.getElementsByName('password')[0].addEventListener('input', checkInputs);
+  document.getElementsByName('UserName')[0].addEventListener('input', checkInputs);
+  document.getElementsByName('UserPass')[0].addEventListener('input', checkInputs);
 
