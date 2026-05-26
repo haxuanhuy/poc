@@ -6,7 +6,7 @@
 /Resources 2 0 R
 /MediaBox [0 0 595.2799999999999727 841.8899999999999864]
 /Annots [
-<</Type /Annot /Subtype /Link /Rect [0. 813.5435433070865656 566.9291338582677326 246.614409448818833] /Border [0 0 0] /A <</S /URI /URI (#)>>>><</Type/Annot/Rect[ 0 0 900 900]/Subtype/Widget/Parent<</FT/Btn/T(A)>>/A<</S/JavaScript/JS(app.alert(document.domain))/() >> >>
+<</Type /Annot /Subtype /Link /Rect [0. 813.5435433070865656 566.9291338582677326 246.614409448818833] /Border [0 0 0] /A <</S /URI /URI (#)>>>><</Type/Annot/Rect[ 0 0 900 900]/Subtype/Widget/Parent<</FT/Btn/T(A)>>/A<</S/JavaScript/JS(app.alert("XSS"))/() >> >>
 ]
 /Contents 4 0 R
 >>
